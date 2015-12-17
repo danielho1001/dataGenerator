@@ -1,0 +1,9 @@
+This program is written to generate mock data for FFB, who has one giant fact table that contains snapshotted daily account balances.
+
+To mock up data across x accounts and n days, I divided the program into two parts. First is to create a base table, which contains x accounts info for 1 day. Then I modify the base table minorly and replicate across n-1 days.
+
+The parameters used to generate the mock data is thru a parameter file. The parm file is imported as a python library for main.py to reference. This is probably not the best coding practice but it was the easy.
+
+To run the program, simply modify the paramter file to your liking and run "python main.py"
+
+The files will be generated and stored in the specified folder.   
